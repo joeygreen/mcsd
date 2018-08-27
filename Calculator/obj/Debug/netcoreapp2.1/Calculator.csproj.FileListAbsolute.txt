@@ -1,0 +1,11 @@
+/Users/joey.green/Source/com.joeycodes/MCSD/Calculator/bin/Debug/netcoreapp2.1/Calculator.deps.json
+/Users/joey.green/Source/com.joeycodes/MCSD/Calculator/bin/Debug/netcoreapp2.1/Calculator.runtimeconfig.json
+/Users/joey.green/Source/com.joeycodes/MCSD/Calculator/bin/Debug/netcoreapp2.1/Calculator.runtimeconfig.dev.json
+/Users/joey.green/Source/com.joeycodes/MCSD/Calculator/bin/Debug/netcoreapp2.1/Calculator.dll
+/Users/joey.green/Source/com.joeycodes/MCSD/Calculator/bin/Debug/netcoreapp2.1/Calculator.pdb
+/Users/joey.green/Source/com.joeycodes/MCSD/Calculator/obj/Debug/netcoreapp2.1/Calculator.csprojAssemblyReference.cache
+/Users/joey.green/Source/com.joeycodes/MCSD/Calculator/obj/Debug/netcoreapp2.1/Calculator.csproj.CoreCompileInputs.cache
+/Users/joey.green/Source/com.joeycodes/MCSD/Calculator/obj/Debug/netcoreapp2.1/Calculator.AssemblyInfoInputs.cache
+/Users/joey.green/Source/com.joeycodes/MCSD/Calculator/obj/Debug/netcoreapp2.1/Calculator.AssemblyInfo.cs
+/Users/joey.green/Source/com.joeycodes/MCSD/Calculator/obj/Debug/netcoreapp2.1/Calculator.dll
+/Users/joey.green/Source/com.joeycodes/MCSD/Calculator/obj/Debug/netcoreapp2.1/Calculator.pdb
