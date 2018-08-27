@@ -1,0 +1,11 @@
+/Users/joey.green/Source/com.joeycodes/MCSD/StudentReportCard/bin/Debug/netcoreapp2.1/StudentReportCard.deps.json
+/Users/joey.green/Source/com.joeycodes/MCSD/StudentReportCard/bin/Debug/netcoreapp2.1/StudentReportCard.runtimeconfig.json
+/Users/joey.green/Source/com.joeycodes/MCSD/StudentReportCard/bin/Debug/netcoreapp2.1/StudentReportCard.runtimeconfig.dev.json
+/Users/joey.green/Source/com.joeycodes/MCSD/StudentReportCard/bin/Debug/netcoreapp2.1/StudentReportCard.dll
+/Users/joey.green/Source/com.joeycodes/MCSD/StudentReportCard/bin/Debug/netcoreapp2.1/StudentReportCard.pdb
+/Users/joey.green/Source/com.joeycodes/MCSD/StudentReportCard/obj/Debug/netcoreapp2.1/StudentReportCard.csprojAssemblyReference.cache
+/Users/joey.green/Source/com.joeycodes/MCSD/StudentReportCard/obj/Debug/netcoreapp2.1/StudentReportCard.csproj.CoreCompileInputs.cache
+/Users/joey.green/Source/com.joeycodes/MCSD/StudentReportCard/obj/Debug/netcoreapp2.1/StudentReportCard.AssemblyInfoInputs.cache
+/Users/joey.green/Source/com.joeycodes/MCSD/StudentReportCard/obj/Debug/netcoreapp2.1/StudentReportCard.AssemblyInfo.cs
+/Users/joey.green/Source/com.joeycodes/MCSD/StudentReportCard/obj/Debug/netcoreapp2.1/StudentReportCard.dll
+/Users/joey.green/Source/com.joeycodes/MCSD/StudentReportCard/obj/Debug/netcoreapp2.1/StudentReportCard.pdb
