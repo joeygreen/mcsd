@@ -6,43 +6,95 @@ namespace StudentReportCard
     {
         static void Main(string[] args)
         {
-           PromptForNumberOfStudents();
+           var students = new string[PromptForNumberOfStudents()][];
 
-           //for each student
-           EnterStudentData();
+           EnterStudentData(students);
+
+           var reportCard = GetReportCard(students);
+
+           DisplayReportCard(reportCard);
         }
 
-        static void PromptForNumberOfStudents() 
+        static int PromptForNumberOfStudents() 
         {
-
+            Console.WriteLine("Enter total students:");
+            return Convert.ToInt32(Console.ReadLine());
         }
 
-        static void EnterStudentData()
+        static void EnterStudentData(string[][] students)
         {
-            PromptForStudentName();
-            PromptForEnglishScore();
-            PromptForMathScore();
-            PromptForComputerScore();
+            for (int i = 0; i < students.Length; i++)
+            {
+                students[i] = new string[4] 
+                {
+                    PromptForStudentName(),
+                    PromptForEnglishScore(),
+                    PromptForMathScore(),
+                    PromptForComputerScore()
+                };
+            }
         }
 
-        static void PromptForStudentName()
+        static string PromptForStudentName()
         {
-
+            Console.WriteLine("\r\nEnter Student Name:");
+            return Console.ReadLine();
         }
 
-        static void PromptForEnglishScore()
+        static string PromptForEnglishScore()
         {
-
+            Console.WriteLine("Enter English Marks (Out of 100):");
+            return Console.ReadLine();
         }
 
-        static void PromptForMathScore()
+        static string PromptForMathScore()
         {
-
+            Console.WriteLine("Enter Math Marks (Out of 100):");
+            return Console.ReadLine();
         }
 
-        static void PromptForComputerScore()
+        static string PromptForComputerScore()
         {
+            Console.WriteLine("Enter Computer Marks (Out of 100):");
+            return Console.ReadLine();
+        }
 
+        static string[] GetReportCard(string[][] students)
+        {
+            var reportCard = new string[students.Length];
+
+            for (int i = 0; i < students.Length; i++)
+            {
+                var totalScore = 0;
+                var studentName = "";
+                var position = (i + 1);
+                
+                for (int j = 0; j < students[i].Length; j++)
+                {                    
+                    if (j == 0)
+                    {
+                        studentName = $"Student Name: {students[i][j]}";
+                    }
+                    else 
+                    {
+                        totalScore += Convert.ToInt32(students[i][j]);
+                    }
+                }
+                
+                reportCard[i] = $"Student Name: {studentName}, Position: {position.ToString()}, Total: {totalScore.ToString()}/300";
+            }
+
+            return reportCard;
+        }
+
+        static void DisplayReportCard(string[] reportCard)
+        {
+            foreach (var report in reportCard)
+            {
+                Console.WriteLine("********************");
+                Console.WriteLine(report);
+                Console.WriteLine("********************");
+            }
         }
     }
 }
